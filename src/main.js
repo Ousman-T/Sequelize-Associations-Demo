@@ -1,5 +1,7 @@
 const { db } = require("../db/connection.js");
 const { Pokemon, Trainer, Badge } = require("./models");
+// hello world!
+
 
 async function main() {
   const trainers = await Trainer.findAll();
